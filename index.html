@@ -1,15 +1,112 @@
-<!-- ALL TESTING CODE IS DONE IN A SEPARATE HTML FILE FOR SECURITY PURPOSES -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wimbledon Google Maps | Full Stack Development CA3</title>
+    <link rel="stylesheet" href="scss/style.css">
 </head>
+
 <body>
-    <div id="map"></div>
+    <header>
+        <div class="mobile-layout">
+            <!-- Empty div for mobile grid purposes -->
+        </div>
+
+        <div class="website-title">
+            <img src="images/wimbledon-icon.png" />
+            <div>
+                <h1>Wimbledon</h1>
+                <p>Tourist Information</p>
+            </div>
+        </div>
+
+        <div class="mobile-layout user-tools">
+            <img src="images/menu-icon.png" />
+        </div>
+    </header>
+
+    <main>
+        <div class="image-section" style="background-image: url('images/wimbledon-background-1.jpg');">
+            <div>
+                <h1>UPCOMING TENNIS TOURNAMENT</h1>
+                <p>From 13th June to 25th July</p>
+                <button>Read more</button>
+            </div>
+        </div>
+
+        <div class="image-section" style="background-image: url('images/google-map-background.png');">
+            <div>
+                <h1>FIND US</h1>
+                <p>Use our maps to find routes to the Wimbledon tournament</p>
+                <button>Use maps</button>
+            </div>
+        </div>
+
+        <div class="image-section" style="background-image: url('images/london-background.jpg');">
+            <div>
+                <h1>PLAN TOURS IN LONDON</h1>
+                <p>Go sightseeing before watching the big match</p>
+                <button>Plan tours</button>
+            </div>
+        </div>
+
+        <div class="image-section" style="background-image: url('images/wimbledon-background-1.jpg');">
+            <div>
+                <h1>DINE AT RESTAURANTS</h1>
+                <p>Dine at your favourite place or try something new</p>
+                <button>Find restaurants</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <div class="section">
+                <h2>Contact</h2>
+                <hr>
+                <p>All England Lawn Tennis & Croquet Club,</p>
+                <p>Church Club,</p>
+                <p>London,</p>
+                <p>UK,</p>
+                <p>SW19 5AG</p>
+            </div>
+            <div class="section">
+                <h2>Legal</h2>
+                <hr>
+                <p class="link">Copyright Notice</p>
+                <p class="link">Cookies</p>
+                <p class="link">Governance</p>
+                <p class="link">Terms & Conditions</p>
+                <p class="link">FAQs</p>
+            </div>
+            <div class="section">
+                <h2>Support</h2>
+                <hr>
+                <p>Phone: +44 20 7123 4567</p>
+                <p>Email: wimbledon@info.com</p>
+            </div>
+            <div class="section">
+                <h2>Community</h2>
+                <hr>
+                <div class="social-icons">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Theo Picar. All rights reserved</p>
+        </div>
+    </footer>
 
     <script src="javascript.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=<KEY_HERE>&loading=async&callback=loadMap&libraries=marker"></script>       	
+    <!-- <scrip src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkCVQst_ul04E1f__mn_zR_FdqGYtehTM&loading=async&callback=loadMap&libraries=marker"></script> -->
 </body>
+
 </html>
